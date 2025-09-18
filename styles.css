@@ -1,0 +1,84 @@
+header {
+    background-color: rgba(246, 9, 194, 0.881);
+    padding: 35px;
+    padding-bottom: 50px;
+    overflow: hidden;
+      
+}
+header div {
+    text-align: center;
+}
+header h1 {
+    font-size: 120px;
+    text-align: center;
+    margin: 0;
+    font-family: 'Great Vibes', cursive;
+    
+}
+header h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+header .photo {
+    float: right;
+    margin-right: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border: 3px solid white; 
+}
+
+.content {
+    background-image: url("images/Scarlet Wallpaper.jpg");
+    background-position: center;
+    background-color: rgba(255,255,255,0.5);
+    background-blend-mode: lighten; 
+    padding-bottom: 25px;
+}
+.content h2 {
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    padding: 50px 100px 0 100px;
+}
+.content p, .content ol {
+    font-size: 20px;
+    padding: 0px 100px 0 150px;
+    list-style: none;
+}
+.content ul {
+    font-size: 20px;
+    padding: 0px 100px 0 150px;
+}
+footer {
+    text-align: center;
+    margin-top: 100px;
+}
+ footer a {
+    color:rgba(246, 9, 194, 0.881) ;
+    text-decoration: none;
+    font-size: 40px;
+    display: block;
+    margin: 20px 0;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+.btn {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    font-size: 40px;
+    margin-left: 1200px;
+    text-decoration: none;
+    padding: 15px;
+    opacity: 0.7;
+}
+.btn:hover {
+    background-color:rgba(246, 9, 194, 0.881) ;
+    color: black;
+    border-color: black;
+    border: 3px solid black;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule</title>
+    <style>
+        #page-heading {
+            text-align: center;
+            color: rgb(10, 205, 10);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 50px;
+        }
+        table {
+            border: 2px solid black;
+            border-collapse: collapse;
+            margin: 20px auto;
+            width: 70%;
+        }
+        th{
+            background-color: rgb(109, 203, 74);
+            padding: 10px;
+            font-size: 25px;
+        }
+        td {
+            padding: 10px;
+            text-align: center;
+            font-size: 20px;
+        }
+        tr:nth-child(odd) {
+            background-color: rgb(211, 211, 171);
+        }
+        .highlight-row {
+            background-color: rgb(158, 202, 234);
+        }
+        
+        form {
+            margin: 30px auto;
+            width:500px;
+            background-color: rgb(255, 127, 127);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.2); 
+        }
+
+         label {
+           margin-bottom: 10px;
+           font-weight: bold;
+           margin-top: 12px;
+           font-size: 20px;
+        }
+        input[type="text"] {
+            margin: 15px;
+            width: 70%;
+            padding: 10px;
+            border-radius: 15px;
+            border: none;
+        }
+        textarea{
+            margin: 15px;
+            width: 80%;
+            padding: 10px;
+            padding-left: 25px;
+            border-radius: 15px;
+            border: none;
+        }    
+        select {
+            font-size: 15px;
+            margin-left: 15px;
+            padding: 10px;
+            border: none;
+            border-radius: 15px;
+            width: 100px;
+        }   
+        input[type="radio"] {
+            margin: 15px;
+            margin-left: 50px;
+            transform: scale(1.5);
+        }
+        .like {
+            font-size: 20px;
+        }
+        
+        #submit {
+            border: none;
+            border-radius: 15px;
+            background-color: rgb(239, 35, 76);
+            display: block;    
+            margin: 15px auto;
+            padding: 15px 30px 15px 30px;
+            font-size: 25px; 
+            font-weight: bold;
+        }
+
+        #submit:hover {
+            background: linear-gradient(135deg, #0ef922, #4cafef);
+            transform: scale(1.08);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        }
+
+
+    
+        
+    </style>
+</head>
+<body>
+    <h1 id="page-heading">Schedule</h1>
+    <table border="1">
+        <th>Name</th>
+        <th>Subject</th>>
+        <th>Grade</th>
+        <tr class="highlight-row">
+            <td>Arai</td>
+            <td>Physics</td>
+            <td>4.0</td>
+        </tr>
+        <tr>
+            <td>Nurai</td>
+            <td>Math</td>
+            <td>3.3</td>
+        </tr>
+        <tr>
+            <td>Sezym</td>
+            <td>Art</td>
+            <td>2.6</td>
+        </tr>
+        <tr>
+            <td>Asylym</td>
+            <td>Biology</td>
+            <td>3.5</td>
+        </tr>
+    </table>
+
+    
+    <form>
+        <label><h1>Form</h1></label>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br>
+
+        <label for="role">Select your role:</label>
+        <select id="role" name="role">
+            <option value="Student">Student</option>
+            <option value="Teacher">Teacher</option>
+            <option value="Other">Other</option>
+        </select><br>
+        <br>
+
+        <label>Do you like this website?</label>
+        <input type="radio" name="Yes" value="No">
+        <label for="yes" class="like">Yes</label>
+        <input type="radio" name="No" value="No">        
+        <label for="no" class="like">No</label>
+        <br><br>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments"></textarea><br>
+
+        <button type="submit" id="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
