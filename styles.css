@@ -31,7 +31,7 @@ header .photo {
 }
 
 .content {
-    background-image: url("images/Scarlet Wallpaper.jpg");
+    background-image: url("Scarlet Wallpaper.jpg");
     background-position: center;
     background-color: rgba(255,255,255,0.5);
     background-blend-mode: lighten; 
@@ -82,3 +82,4 @@ footer a:hover {
     border-color: black;
     border: 3px solid black;
 }
+
